@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="title">REGISTRATION</h1>
+    <form action="reg.php" method="post">
+        <section id="section1">
+            <label class="label" for="fname">First Name:</label>
+            <input class="inputbox" type="text" id="fname" name="fname">
+            <label class="label" for="lname">Last Name:</label>
+            <input class="inputbox" type="text" id="lname" name="lname">
+            <label class="label" for="email">Email:</label>
+            <input class="inputbox" type="text" id="email" name="email">
+            <label class="label" for="password">Password:</label>
+            <input class="inputbox" type="password" id="password" name="password">
+        </section>
+        <section id="section2">
+            <legend class="label">Gender</legend>
+            <label class="label" for="gender1">
+                <input class="inputradio" type="radio" id="gender1" name="gender">Male</label>
+            <label class="label" for="gender2">
+                <input class="inputradio" type="radio" id="gender2" name="gender">Female</label>
+            <label class="label" for="gender3">
+                <input class="inputradio" type="radio" id="gender3" name="gender">Prefer not to say</label>
+        </section>
+        <input class="inputbox" type="submit" id="submitbutton" value="Submit">
+</body>
+
+</html>
